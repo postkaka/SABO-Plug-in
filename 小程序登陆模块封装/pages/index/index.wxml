@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="usermotto">
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">登录</button>
+  </view>
+</view>
+
