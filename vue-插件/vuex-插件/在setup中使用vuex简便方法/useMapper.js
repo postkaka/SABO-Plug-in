@@ -2,6 +2,8 @@ import { computed } from 'vue'
 import { mapState, useStore } from 'vuex'
 
 export function useMapper(mapper, mapFn) {
+  console.log(mapFn)
+
   // 拿到store独享
   const store = useStore()
 
